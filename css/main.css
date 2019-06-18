@@ -189,9 +189,28 @@ ul.css-menu-3 {
 }
 
 footer  {
-	width: 98%;
-	float: left;
+	width: 100%;
+	height: auto;
 	padding: 1%;
-	background-color:#fafafa;
-	border-top:2% solid silver
+	background: #000000;;
+	margin: 0 auto;
+	text-align: center;
+	padding: top 25px;
+
+}
+footer a{
+	color: white;
+	font-size: 25px;
+	margin-left:10px;
+}
+.foter-photo{
+	height:15;
+	width:300;
+	margin-top:100px;
+}
+.info{
+	text-align: center;
+}
+.my{
+color:#8A8A8A;
 }
