@@ -1,5 +1,68 @@
+a.button13 {
 
-   
+	width: 15em;
+	font-size: 80%;
+	color: rgba(255,255,255,.9);
+	text-shadow: #2e7ebd 0 1px 2px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.1;
+	white-space: pre-line;
+	padding: .7em 0;
+	border: 1px solid;
+	border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+	border-radius: 6px;
+	outline: none;
+	background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+	text-align: center;
+  }
+  a.button13:first-line{
+	font-size: 170%;
+	font-weight: 700;
+	text-align: center;
+  }
+  .css-menu-3 > *:hover {
+	background-color: rgb(255,255,255);
+	background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+	text-align: center;
+  }
+  a.button13:active {
+	color: rgb(255,255,255);
+	border-color: #2970a9;
+	background-image: linear-gradient(#5796c8, #6aa2ce);
+	box-shadow: none;
+	text-align: center;
+  } 
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
 ul.css-menu-3 {
 	list-style: none;
 	border-bottom: 5px solid #bb0000;
@@ -15,7 +78,6 @@ ul.css-menu-3 {
 	ul.css-menu-3 li a {
 	color: #fefefe;
 	text-decoration: none;
-	background: #225588;
 	border: 1px solid #225588;
 	border-bottom: 1px solid #114477;
 	margin: 0; 
@@ -32,30 +94,95 @@ ul.css-menu-3 {
 	border-left: 1px solid #770000;
 	padding: 10px 14px 10px 14px
 	}
-
-.image-center
-{
-	margin-top: 50px;
-	display: block;
-	margin: auto;
-}
-.titles_first {
+.titles__first {
 	font-size: 40px;
 	color: red;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 180px;
 }
-.otstyp{
-	margin-top: 90px;
+
+.titles_second 
+{
+	font-size: 75px;
+	color:red;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
 }
-.container {
-	width: 930px;
-	margin: 0 auto;
+
+
+
+.title {
+	padding-top: 115px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
 }
-.text{
+
+
+
+.services {
+	margin-top: 80px;
+}
+
+.services__item	{
+	width: 270px;
+	float: left;
 	text-align: center;
 }
+
+.№36 
+{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.adress {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item:last-child {
+	float: right;
+}
+
+.services__item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#services {
+	padding-bottom: 120px;
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+.works img:last-child {
+	float: right;
+}
+
 footer  {
 	width: 100%;
 	height: auto;
@@ -80,5 +207,38 @@ footer a{
 	text-align: center;
 }
 .my{
-	color:#8A8A8A;
+color:#8A8A8A;
+}
+.main_inscription{
+	text-align:center;
+	margin-right:300px;
+	margin-left:300px;
+	padding: 100px;
+
+}
+.lol{
+    display: block;
+	margin: auto;
+	margin-top:30px
+}
+.o1{
+   text-align: center
+}
+.o2{
+	text-align: center
 	}
+.o3{
+    text-align: center
+}
+.titles_first {
+	font-size: 40px;
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+.image-wrap{
+	display: block;
+	margin: auto;
+	margin-top:30px;
+}

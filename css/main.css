@@ -196,6 +196,7 @@ footer  {
 	margin: 0 auto;
 	text-align: center;
 	padding: top 25px;
+	
 
 }
 footer a{
@@ -213,4 +214,37 @@ footer a{
 }
 .my{
 color:#8A8A8A;
+}
+.main_inscription{
+	text-align:center;
+	margin-right:300px;
+	margin-left:300px;
+	padding: 100px;
+
+}
+.lol{
+    display: block;
+	margin: auto;
+	margin-top:30px
+}
+.o1{
+   text-align: center
+}
+.o2{
+	text-align: center
+	}
+.o3{
+    text-align: center
+}
+.titles_first {
+	font-size: 40px;
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+.image-wrap{
+	display: block;
+	margin: auto;
+	margin-top:30px;
 }
